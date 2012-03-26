@@ -1,1 +1,28 @@
-<>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//PL" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl" xml:lang="en">
+<head>
+<title>TVP1</title>
+<link href="menu.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="jquery-1.7.2.js" charset="UTF-8"></script>
+<script type="text/javascript" src="start.js" charset="UTF-8"></script>
+<script type="text/javascript" src="menu.js" charset="UTF-8"></script>
+<script type="text/javascript" src="info.js" charset="UTF-8"></script>
+<script type="text/javascript" src="config.json" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+//<![CDATA[
+
+window.onload = function() {
+  browser.init();
+  showApp();
+};
+//]]>
+</script>
+</head>
+<body>
+<object id="appman" type="application/oipfApplicationManager" style="position: absolute; left: 0px; top: 0px; width: 0px; height: 0px;"></object>
+<div id="tvInfo"></div>
+<div id="radioInfo"> </div>
+<div id="menu"> </div>
+</body>
+</html>

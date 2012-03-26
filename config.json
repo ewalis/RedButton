@@ -1,0 +1,18 @@
+config = [
+	TVP1:{
+		url:"",
+		icon:"",
+		type:"",
+		companny:"",
+		description:""
+	},
+
+	telegazeta:{
+		url:"",
+		icon:"",
+		type:"",
+		companny:"",
+		description:""
+	}
+
+];
